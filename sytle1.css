@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  /* background-color: rgb(7, 83, 109); */
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  color: #f9f7f7;
+  background-image: url(images/panda.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  display: flex;
+  row-gap: 15px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  background-image: url(https://png.pngtree.com/background/20230414/original/pngtree-website-blue-line-light-background-picture-image_2424844.jpg);
+  background-color: gray;
+  background-blend-mode: multiply;
+}
+.container .image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+.container header {
+  font-size: 80px;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.container p {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  max-width: 800px;
+  text-align: center;
+}
+.container .time-content {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.time-content .time {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  row-gap: 20px;
+  flex-direction: column;
+  border-top: 4px solid lightblue;
+  /* background-color: gray;
+  background-blend-mode: multiply; */
+  padding: 22px;
+
+  height: 200px;
+}
+.time .number,
+.time .text {
+  font-weight: 500;
+  color: white;
+}
+.time .number {
+  font-size: 40px;
+}
+.time .text {
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.email-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 30px;
+}
+input[type="email"] {
+  margin-top: 30px;
+  width: 300px;
+  height: 100%;
+  background: transparent;
+  border: 1px solid white;
+  font-size: larger;
+  align-items: center;
+  padding: 0 20px;
+  border-radius: 4px;
+  color: #f9f7f7;
+}
+input[type="submit"] {
+  width: 200px;
+  border-radius: 4px;
+  height: 100%;
+  background: transparent;
+  border: 1px solid white;
+  cursor: pointer;
+  color: aliceblue;
+  font-size: larger;
+  font-weight: 100;
+  margin-left: 20px;
+  transition: 2s;
+}
+input[type="submit"]:hover {
+  background-color: rgb(84, 143, 159);
+  color: black;
+  border-color: cadetblue;
+}
+#footer {
+  margin-top: 60px;
+}
+.credits a {
+  color: cadetblue;
+}
+a:active {
+  color: red;
+}
