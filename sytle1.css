@@ -122,3 +122,8 @@ input[type="submit"]:hover {
 a:active {
   color: red;
 }
+@media screen and (max-width: 300px) {
+  container.header {
+    font-size: 50px;
+  }
+}
